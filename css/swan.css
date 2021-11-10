@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    background-color: #f37029;
+    
+  }
+  
+.grwh{
+    width: 100%;
+  
+  }
+.gr{
+    height: 24.4px;
+    background-color: #00ad5d;
+    color: #00ad5d;
+    
+  }
+.wh{
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    height: 11px;
+  }
+.or{
+  flex-wrap: wrap;
+  background-color: #f37029;
+  height: 10px;
+  color: #f37029;
+  }
+  
+.bg-swan{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+  }
+  
+  @media only screen and (min-width: 320px) {
+    /* For tablets: */
+    .logo{
+        width:50%;
+      }
+    .gr {
+      width: auto;
+      height: 28%;
+    }
+    .wh {
+      width: auto;;
+      height: 13%;
+    }
+    .or {
+      width: auto;;
+      height: auto;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    /* ipad pro */
+    .logo{
+        width: 30%;
+      }
+     
+    .bg-swan{
+        background-size: 2024px;
+
+      }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    /* desktop */
+    .logo{
+        width: 15%;
+      }
+  }

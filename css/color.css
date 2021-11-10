@@ -1,0 +1,145 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.font {
+    font-family: 'Varela Round', sans-serif;
+}
+.bg-colortoSup{
+    background-color: orange;
+    background-image: url(../images/bgcolorsup.png);
+}
+.bg-colortoAdmin{
+    background-color: orange;
+    background-image: url(../images/bgcolorre.png);
+}
+.bg-colortopUser {
+    background-color: orange;
+    background-image: url(../images/bgcolor.png);
+}
+.sb-colorsideSup{
+    background-color: #336359 ;
+}
+.sb-colorsideAdmin {
+    background-color: #00b25b ;
+}
+
+.sb-colorsideUser {
+    background-color: #f37029;
+}
+
+.card-navAdmin{
+    background-color: #ceffce;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card-navUser{
+    background-color: #ffeeee;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.alert-request{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    height: 15px;
+    width: 15px;
+    font-size: 9px;
+    border-radius: 25px;
+    border-color: lightpink;
+    padding-left: 0.5%;
+    padding-top: 0.9%;
+    text-align: center;
+}
+
+.alert-request2{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    height: 15px;
+    width: 15px;
+    font-size: 9px;
+    border-radius: 25px;
+    border-color: lightpink;
+    padding-left: 0.5%;
+    padding-top: 0.9%;
+    text-align: center;
+}
+
+
+.notification {
+color: #ceffce;
+    padding: 5px 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification:hover {
+color: #a3b9b4;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px 2px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+  
+  .badge {
+      font-size: 9px;
+  }
+
+  .fontNotify1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}
+
+.fontY {
+    color: #336359;
+    font-size: 60px;
+    text-align: center;
+}
+
+.imagesCenter {
+    height: 800px;
+    margin-left: 13%;
+    box-shadow: 10px 10px 20px rgb(187, 187, 187);
+}
+
+.Center {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px rgb(187, 187, 187);
+}
+.VDO{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px rgb(187, 187, 187);
+}
+
+.button78{
+    display: block;
+    background-image: url(../images/button2.png);
+    height: 159px;
+    width: 318px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #00b25b;
+    border-radius: 5%;
+}

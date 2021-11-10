@@ -1,0 +1,69 @@
+.bg-swan {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo{
+    width: 280px;
+}
+
+
+@media only screen and (min-width: 320px) {
+    /* 5SE */
+    .bg-swan {
+        background-size: 310%;
+        background-position-x: 65%;
+    }
+}
+
+
+
+@media only screen and (min-width: 375px) {
+    /* X */
+    .bg-swan {
+        background-size: 400%;
+        background-position-x: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* ipad  */
+
+    .bg-swan {
+        background-size: 250%;
+        background-position-x: 70%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* ipad pro */
+
+    .bg-swan {
+        background-size: 250%;
+        background-position-x: 70%;
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    /* laptop */
+
+    .bg-swan {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 1537px) {
+    /* desktop */
+
+    .bg-swan {
+        background-size: 100%;
+    }
+}
+
+
+
+
+
+
